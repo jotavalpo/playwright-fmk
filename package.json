@@ -1,0 +1,20 @@
+{
+  "name": "playwright-fmk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testui": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "trace": "npx playwright test --trace on",
+    "testsmoke": "npx playwright test tests/ --grep @smoke"
+  },
+  "keywords": [],
+  "author": "Jorge Montero",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.9.0",
+    "dotenv": "^16.0.0"
+  }
+}
